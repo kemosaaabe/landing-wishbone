@@ -121,6 +121,42 @@ a:hover {
   color: var(--color-main-dark);
 }
 
-.section-1-image {
+.section-1-image img {
   object-fit: cover;
+  height: 100%;
+}
+
+/* Section 1-2 */
+
+.section-1-2 {
+  padding: 48px 0 96px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-1-2-title {
+  margin-bottom: 24px;
+  font-weight: 400;
+  font-size: 32px;
+  text-align: center;
+}
+
+.section-1-2-text-container {
+  margin-bottom: 36px;
+  display: flex;
+  font-weight: 300;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.section-1-2-author-name {
+  font-size: 18px;
+  line-height: 1;
+}
+
+.section-1-2-author-job {
+  font-size: 14px;
+  font-weight: 300;
 }
