@@ -36,6 +36,7 @@ a:hover {
   background-color: var(--color-black);
   color: var(--color-white);
   border-radius: 12px;
+  border: none;
   padding: 8px 12px;
   transition: box-shadow 0.2s ease;
   cursor: pointer;
@@ -271,5 +272,88 @@ a:hover {
 }
 
 .section-4-text {
+  color: var(--color-text);
+}
+
+/* Section 5 */
+
+.section-5 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #f7f7f7;
+}
+
+.section-5-inner {
+  padding: 72px 0;
+  width: 85%;
+}
+
+.section-5-title-block {
+  max-width: 35%;
+  margin-bottom: 36px;
+}
+
+.section-5-title-block-title {
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 28px;
+  letter-spacing: 1px;
+  color: var(--color-title-text);
+}
+
+.section-5-title-block-subtitle {
+  color: var(--color-text);
+  font-weight: 300;
+}
+
+.section-5-carousel {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.section-5-carousel-card img {
+  object-fit: contain;
+  width: 100%;
+}
+
+.section-5-carousel-card:nth-child(2) {
+  position: relative;
+}
+
+.section-5-carousel-card-text-block {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+.section-5-carousel-card-text-block-subtitle {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--color-text);
+  letter-spacing: 1px;
+}
+
+.section-5-carousel-card-text-title {
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--color-title-text);
+}
+
+.section-5-carousel-card-button {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  min-width: 120px;
+}
+
+.section-5-end-link {
+  margin-top: 36px;
+  display: flex;
+  justify-content: center;
+}
+
+.section-5-end-link a {
   color: var(--color-text);
 }
