@@ -357,3 +357,61 @@ a:hover {
 .section-5-end-link a {
   color: var(--color-text);
 }
+
+/* Section 6 */
+
+.section-6 {
+  padding: 72px 0;
+  width: 85%;
+  display: flex;
+  gap: 48px;
+}
+
+.section-6-text-block {
+  width: 35%;
+}
+
+.section-6-text-block-title {
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 28px;
+  letter-spacing: 0.7px;
+  color: var(--color-title-text);
+}
+
+.section-6-text-block-text {
+  font-weight: 300;
+  color: var(--color-text);
+}
+
+.section-6-text-block-link {
+  display: inline-block;
+  margin-top: 32px;
+  padding-left: 24px;
+  font-weight: 300;
+}
+
+.section-6-people-block {
+  padding-top: 16px;
+  width: 65%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 48px;
+}
+
+.section-6-people-block-col {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.section-6-people-block-col-title {
+  color: var(--color-title-text);
+  line-height: 1;
+}
+
+.section-6-people-block-col-job {
+  color: var(--color-text);
+  font-size: 14px;
+  font-weight: 300;
+}
