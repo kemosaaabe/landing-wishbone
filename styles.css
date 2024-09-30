@@ -243,3 +243,33 @@ a:hover {
   text-align: center;
   color: var(--color-text);
 }
+
+/* Section 4 */
+
+.section-4 {
+  position: relative;
+  width: 100%;
+  min-height: 600px;
+  background: url('/assets/images/section-4.jpg') no-repeat;
+  background-size: 100%;
+}
+
+.section-4-text-block {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(0, -50%);
+  max-width: 300px;
+}
+
+.section-4-title {
+  color: var(--color-title-text);
+  text-transform: uppercase;
+  line-height: 1.4;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+
+.section-4-text {
+  color: var(--color-text);
+}
