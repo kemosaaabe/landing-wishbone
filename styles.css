@@ -11,6 +11,8 @@
   --color-white: #fff;
   --color-main-light: #ece7e5;
   --color-main-dark: #cfc4bc;
+  --color-text: #645c55;
+  --color-title-text: #403e3b;
   --box-shadow-base: 0 0 4px 1px rgba(0, 0, 0, 0.35);
 }
 
@@ -159,4 +161,32 @@ a:hover {
 .section-1-2-author-job {
   font-size: 14px;
   font-weight: 300;
+}
+
+/* Section 2 */
+
+.section-2 {
+  position: relative;
+  width: 100%;
+  min-height: 600px;
+  background: url('/assets/images/section-2.jpg') no-repeat;
+  background-size: 100%;
+}
+
+.section-2-text-block {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translate(0, -50%);
+  max-width: 300px;
+}
+
+.section-2-title {
+  color: var(--color-title-text);
+  text-transform: uppercase;
+  line-height: 1.4;
+}
+
+.section-2-text {
+  color: var(--color-text);
 }
