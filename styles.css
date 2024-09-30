@@ -415,3 +415,49 @@ a:hover {
   font-size: 14px;
   font-weight: 300;
 }
+
+/* Section 7 */
+
+.section-7 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-main-dark);
+}
+
+.section-7-inner {
+  padding: 72px 0;
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-7-title-block {
+  max-width: 40%;
+}
+
+.section-7-title-block-caption {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--color-text);
+  line-height: 0.7;
+  letter-spacing: 1px;
+}
+
+.section-7-title-block-title {
+  font-weight: 400;
+  font-size: 32px;
+  color: var(--color-title-text);
+  line-height: 1;
+  letter-spacing: 0.5px;
+}
+
+.section-7-link-block a {
+  font-weight: 300;
+}
+
+.section-7-link-block a:hover {
+  color: var(--color-title-text);
+}
