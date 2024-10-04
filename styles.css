@@ -482,3 +482,38 @@ a:hover {
   gap: 16px;
   align-self: flex-end;
 }
+
+/* Footer */
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-main-light);
+}
+
+.footer-inner {
+  padding: 72px 0;
+  width: 85%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 24px;
+}
+
+.footer-col-links {
+  list-style: none;
+}
+
+.footer-col-title {
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  color: var(--color-title-text);
+}
+
+.footer-col-links-item {
+  margin-bottom: 12px;
+  display: block;
+  line-height: 1.2;
+  color: var(--color-text);
+  font-weight: 300;
+}
