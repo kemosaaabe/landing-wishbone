@@ -461,3 +461,24 @@ a:hover {
 .section-7-link-block a:hover {
   color: var(--color-title-text);
 }
+
+.section-8 {
+  padding: 72px 0;
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.section-8-text-block-text {
+  margin-top: 12px;
+  font-weight: 300;
+  font-size: 14px;
+  color: var(--color-text);
+}
+
+.section-8-icons-block {
+  display: flex;
+  gap: 16px;
+  align-self: flex-end;
+}
