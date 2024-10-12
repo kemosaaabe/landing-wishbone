@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 :root {
@@ -78,6 +78,10 @@ a:hover {
 .section-1-text,
 .section-1-image {
   width: 50%;
+}
+
+.section-1-image img {
+  width: 100%;
 }
 
 .section-1-text {
@@ -170,7 +174,7 @@ a:hover {
   position: relative;
   width: 100%;
   min-height: 600px;
-  background: url('/assets/images/section-2.jpg') no-repeat;
+  background: url("/assets/images/section-2.jpg") no-repeat;
   background-size: 100%;
 }
 
@@ -251,7 +255,7 @@ a:hover {
   position: relative;
   width: 100%;
   min-height: 600px;
-  background: url('/assets/images/section-4.jpg') no-repeat;
+  background: url("/assets/images/section-4.jpg") no-repeat;
   background-size: 100%;
 }
 
